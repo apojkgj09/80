@@ -4,7 +4,7 @@ from TanuMusic import app
 import json 
 from config import BANNED_USERS
 import requests 
-from TanuMusic.core.call import Dil
+from TanuMusic.core.call import Tanu
 
 
 @app.on_message(filters.command(["قران"],""))
